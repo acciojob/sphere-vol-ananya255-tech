@@ -1,6 +1,8 @@
-function volume_sphere() {
+function volume_sphere(event) {
     //Write your code here
 	//(4/3) · π · r3
+
+	event.preventDefault()
 
 	let radius=document.getElementById("radius").value;
 	if(isNaN(radius) || radius==="" || Number(radius)<0){
