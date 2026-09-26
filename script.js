@@ -12,7 +12,7 @@ function volume_sphere() {
   volume=volume.toFixed(4)
  document.getElementById("volume").value = volume;
 
-    return false;
+ 
 	
 } 
 
